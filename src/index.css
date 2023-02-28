@@ -1,0 +1,54 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+@font-face {
+  font-family: "Digital-Numbers";
+  src: url("./assets/fonts/DS-DIGIB.TTF") format("truetype");
+}
+
+
+*{
+  box-sizing: border-box;
+}
+:root {
+  font-family: "Digital-Numbers";
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  /* padding: 2rem; */
+  text-align: center;
+}
+
+body{
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items: center;
+  min-height: 100vh;
+  /* background-image: url(./assets/Fondo1.jpg); */
+}
+
+.gradiente{
+  background: rgb(239,238,247);
+background: linear-gradient(4deg, rgba(239,238,247,0) 0%, rgba(255,255,255,0.5026178010471204) 32%, rgba(253,255,255,1) 100%);
+}
+.a{
+  box-shadow: 10px -10px 40px 0 #FFFFFF, 2px 4px 16px 2px;
+}
