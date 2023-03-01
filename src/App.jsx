@@ -1,5 +1,5 @@
 import phrases from "./assets/phrases.json"
-import img from "./assets/fondos.json"
+import img from "./assets/background.json"
 import Section from "./components/Section"
 import { useState } from 'react'
 
